@@ -7,6 +7,7 @@
     <title>Beerfest 2019</title>
     
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/dc/2.1.8/dc.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
 
@@ -79,25 +80,27 @@
                 </ol>
             </div>
             <div id="statistics" class="col-md-12">
-                <div>
-                    <h3>Total Consumption Per Person</h3>
-                    <p><div id="bar-chart" class="dc-chart"></div></p>
+                <h3>2019 Results</h3>
+                <div class="col-md-4 stats">
+                    <h4>Consumption Per Person</h4>
+                    <div id="bar-chart" class="dc-chart"></div>
                 </div>
         
-                <div>
-                    <h3>Total Consumption Per pub</h3>
+                <div class="col-md-4 stats">
+                    <h4>Consumption Per pub</h4>
                     <p><div id="bar-chart2" class="dc-chart"></div></p>
                 </div>
         
-                <div>
-                    <h3>Total Consumption Per beer</h3>
-                    <p><div id="bar-chart3"></div></p>
+                <div class="col-md-4 stats">
+                    <h4>Consumption Per beer</h4>
+                    <p><div id="bar-chart3" class="dc-chart"></div></p>
                 </div>
             </div>
             <div id="locations" class="col-md-12">
                 <h3>Pub locations</h3>
                 <div class="col-xs-12 col-sm-6 col-md-6">
-                    map
+                    <div id="map"></div>
+                     
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-6 pubs">
                     <div class="col-xs-12 col-sm-6 col-md-6">
@@ -176,26 +179,75 @@
                 </div>
             </div>
             <div id="previous" class="col-md-12">
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-                sed diam nonummy nibh euismod tincidunt ut laoreet dolore
-                magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
-                quis nostrud exerci tation ullamcorper suscipit lobortis nisl
-                ut aliquip ex ea commodo consequat. Duis autem vel eum iriure
-                dolor in hendrerit in vulputate velit esse molestie consequat,
-                vel illum dolore eu feugiat nulla facilisis at vero eros et
-                accumsan et iusto odio dignissim qui blandit praesent luptatum
-                zzril delenit augue duis dolore te feugait nulla facilisi.
-                Nam liber tempor cum soluta nobis eleifend option congue
-                nihil imperdiet doming id quod mazim placerat facer possim
-                assum. Typi non habent claritatem insitam; est usus legentis
-                in iis qui facit eorum claritatem. Investigationes
-                demonstraverunt lectores legere me lius quod ii legunt saepius.
-                Claritas est etiam processus dynamicus, qui sequitur mutationem
-                consuetudium lectorum. Mirum est notare quam littera gothica,
-                quam nunc putamus parum claram, anteposuerit litterarum formas
-                humanitatis per seacula quarta decima et quinta decima. Eodem
-                modo typi, qui nunc nobis videntur parum clari, fiant sollemnes
-                in futurum.</p>
+                <h2>Previous Winners</h2>   
+                <div class="col-md-3 years">
+                    <div class="col-md-12 winner">
+                        <h3 class="underline">2018</h3>
+                        <h3>Ralph Lynch</h3>
+                        <h4>Location:</h4>
+                        <h5>Rathmines</h5>
+                   </div>
+                </div>
+                <div class="col-md-3 years">
+                    <div class="col-md-12 winner">
+                        <h3 class="underline">2017</h3>
+                        <h3>Suzie Murphy</h3>
+                        <h4>Location:</h4>
+                        <h5>Drumcondra</h5>
+                   </div>
+                </div>
+                <div class="col-md-3 years">
+                    <div class="col-md-12 winner">
+                        <h3 class="underline">2016</h3>
+                        <h3>Anthony O'Brien</h3>
+                        <h4>Location:</h4>
+                        <h5>Swords</h5>
+                   </div>
+                </div>
+                <div class="col-md-3 years">
+                    <div class="col-md-12 winner">
+                        <h3 class="underline">2015</h3>
+                        <h3>Sarah Brophy</h3>
+                        <h4>Location:</h4>
+                        <h5>Blanchardstown</h5>
+                   </div>
+                </div>
+                <div class="col-md-3 years">
+                    <div class="col-md-12 winner">
+                        <h3 class="underline">2014</h3>
+                        <h3>James Frost</h3>
+                        <h4>Location:</h4>
+                        <h5>Sandyford</h5>
+                   </div>
+                </div>
+                <div class="col-md-3 years">
+                    <div class="col-md-12 winner">
+                        <h3 class="underline">2013</h3>
+                        <h3>Donald Kelly</h3>
+                        <h4>Location:</h4>
+                        <h5>Clondalkin</h5>
+                   </div>
+                </div>
+                <div class="col-md-3 years">
+                    <div class="col-md-12 winner">
+                        <h3 class="underline">2012</h3>
+                        <h3>Mike Ford</h3>
+                        <h4>Location:</h4>
+                        <h5>Drimnagh</h5>
+                   </div>
+                </div>
+                <div class="col-md-3 years">
+                    <div class="col-md-12 winner">
+                        <h3 class="underline">2011</h3>
+                        <h3>Jemma Paterson</h3>
+                        <h4>Location:</h4>
+                        <h5>Templebar</h5>
+                   </div>
+                </div>
+                <h2 class="underline">2020</h2>
+                <p>Entries now open</p>
+                <p>10 years on, we will be back where it all began</p>
+                <h2 class="underline">Templebar</h2>
             </div>
         </div>
     </section>
@@ -203,21 +255,69 @@
         <div class="row">
             <div id="contact" class="col-xs-12 col-sm-12 col-md-12">
                 <div class="col-xs-12 col-sm-12 col-md-6">
+                    <h4 class="uppercase underline">Become a contestant!</h4>
+                    <ul class="list-inline social">
+                        <li>
+                            <label for="form-email">E-mail</label>
+                            <input type="email" name="emailaddress" id="form-email" class="textinput">
+                        </li>
+                        <li class="buttons">
+                            <input type="submit" value="Submit">
+                        </li>
+                    </ul>
+                    
+                    
                     
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-6">
                     <ul class="list-inline social">
                         <li><a target="_blank" href="https://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
+                        <li><a target="_blank" href="https://www.instagram.com"><i class="fa fa-instagram "></i></a></li>
                         <li><a target="_blank" href="https://www.twitter.com"><i class="fa fa-twitter"></i></a></li>
                         <li><a target="_blank" href="https://www.youtube.com"><i class="fa fa-youtube"></i></a></li>
+                        <li><a target="_blank" href="https://www.pinterest.ie"><i class="fa fa-pinterest "></i></a></li>
                     </ul>
                 </div>
             </div>
         </div>
     </footer>
-    
     <script>
-    
+        function initMap() {
+            var map = new google.maps.Map(document.getElementById("map"),{
+                zoom: 11,
+                center: {
+                    lat: 53.28561,
+                    lng: -6.364915  
+                }
+            });
+            
+            var labels = "ABCDEFGH";
+            
+            var locations = [
+                { lat: 53.288020, lng: -6.359548},
+                { lat: 53.285556, lng: -6.367791},
+                { lat: 53.289611, lng: -6.364829},
+                { lat: 53.287956, lng: -6.362231},
+                { lat: 53.287384, lng: -6.366600},
+                { lat: 53.275196, lng: -6.354305},
+                { lat: 53.278058, lng: -6.357996},
+                { lat: 53.284373, lng: -6.375761}
+            ];
+            
+            var markers = locations.map(function(location, i) {
+                return new google.maps.Marker({
+                   position: location,
+                   label: labels[i % labels.length]
+                });
+            });
+            var markerCluster = new MarkerClusterer(map, markers,
+            {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
+      
+
+        }
     </script>
+    <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD-I2OAXiKv8BBt0KY3MqU1wv6v4yeajLQ&callback=initMap"></script>
+
 </body>
 </html>

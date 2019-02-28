@@ -120,7 +120,18 @@ header {
     float: center;
 }
 
+.stats {
+    background-color: #fff;
+}
+
+.dc-chart p{
+    text-align: center;
+}
+
 /*---------------------------------------locations*/
+
+div#map {min-height: 1000px;}
+
 .pubs img {
     width: 200px;
     height: 200px;
@@ -138,8 +149,59 @@ header {
 }
 
 /*---------------------------------------previous*/
+#previous {
+    text-align: center;
+}
+
+.years {
+    margin-top: 20px;
+    margin-bottom:20px;
+    padding: 0;
+    text-align: center;
+    width:400px;
+}
+
+.winner {
+    text-align: center;
+    width:300px;
+    padding:0;
+    background-color: cyan;
+    border-radius: 50px;
+}
 
 
 
 
 /*---------------------------------------footer*/
+
+.social {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.social li a{
+    padding-left: 50px;
+}
+.social li a i {
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+    
+    padding: 10px;
+    border-radius: 100%;
+    color: white;
+    background: #277728;
+}
+
+#contact h4{
+    font-size: 20px;
+    font-family:"Dancing+Script";
+    
+}
+
+#contact ul {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
