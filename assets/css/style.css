@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Righteous');
+
+/*--------------------------------font*/
+.uppercase {
+    text-transform: uppercase;
+}
+.underline {
+    text-decoration: underline;
+}
+h1 {
+    font-family: "Righteous";
+    font-size: 70px;
+    text-align: center;
+    
+}
+
+h2 {
+    font-family: "Righteous";
+    font-size: 50px;
+    text-align: center;
+}
+
+h3 {
+    
+}
+
+h4 {
+    
+}
+h5 {
+    
+}
+
+h6 {
+    
+}
+
+
+/*------------------------------section-background*/
+
+.title {
+    background-color: green;
+}
+#nav ul li a{
+    background-color: yellow;
+}
+
+#rules {
+    background-color: blue;
+}
+
+#statistics {
+    background-color:purple;
+}
+
+#locations {
+    background-color: red;
+}
+
+#drinks {
+    background-color: pink;
+}
+
+#previous {
+    background-color: orange;
+}
+
+#contact {
+    background-color: gray;
+}
+
+/*----------------------------------------header*/
+header {
+    
+    width: 100%;
+    float: top;
+}
+.pageitem {
+    background-color: #000;
+    font-size: 40px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.pageitem a {
+    text-decoration: none;
+}
+
+/*---------------------------------------rules*/
+.dc-chart {
+    float: left;
+}
+
+
+/*---------------------------------------statistics*/
+
+
+
+/*---------------------------------------locations*/
+.pubs img {
+    width: 200px;
+    height: 200px;
+}
+
+
+/*---------------------------------------drinks*/
+
+.beers img {
+    width: 200px;
+    height: 200px;
+}
+
+/*---------------------------------------previous*/
+
+
+
+
+/*---------------------------------------footer*/
