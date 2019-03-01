@@ -15,7 +15,8 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/crossfilter/1.3.12/crossfilter.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/dc/2.1.8/dc.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/queue-async/1.0.7/queue.min.js"></script>
-    <script type="text/javascript" src="scripts.js"></script>
+    <script type="text/javascript" src="barcharts.js"></script>
+    <script type="text/javascript" src="linechart.js"></script>
 </head>
 <body>
     <header class="container-fluid">
@@ -80,21 +81,28 @@
                 </ol>
             </div>
             <div id="statistics" class="col-md-12">
-                <h2>2019 Results</h2>
-                <div class="col-md-4 stats">
-                    <h4>Consumption Per Person</h4>
-                    <div id="bar-chart" class="dc-chart"></div>
+                    <h2>2019 Results</h2>
+                    <h2>Winner: Jemma Peters</h2>
+                    <div class="col-md-4 stats">
+                        <h4>Personal Consumption</h4>
+                        <p><div id="personal-chart" class="dc-chart"></div></p>
+                    </div>
+            
+                    <div class="col-md-4 stats">
+                        <h4>Pub Consumption</h4>
+                        <p><div id="pub-chart" class="dc-chart"></div></p>
+                    </div>
+            
+                    <div class="col-md-4 stats">
+                        <h4>Beer Consumption</h4>
+                        <p><div id="beer-chart" class="dc-chart"></div></p>
+                    </div>
+                
+                <div class="col-md-12 stats2">
+                    <h4>Daily Consumption</h4>
+                    <p><div id="composite-chart" class="dc-chart"></div></p>
                 </div>
-        
-                <div class="col-md-4 stats">
-                    <h4>Consumption Per pub</h4>
-                    <p><div id="bar-chart2" class="dc-chart"></div></p>
-                </div>
-        
-                <div class="col-md-4 stats">
-                    <h4>Consumption Per beer</h4>
-                    <p><div id="bar-chart3" class="dc-chart"></div></p>
-                </div>
+                
             </div>
             <div id="locations" class="col-md-12">
                 <h2>Pub Locations</h2>

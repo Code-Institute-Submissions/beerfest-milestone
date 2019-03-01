@@ -130,15 +130,25 @@ header {
 /*---------------------------------------statistics*/
 
 .dc-chart {
-    float: center;
+    
 }
 
 .stats {
-    background-color: #fff;
+    background-color: #777;
+    margin-left: 30px;
+    text-align: center;
+    width: 30%;
+}
+.stats2 {
+    background-color: #777;
+    margin-top: 40px;
+    
 }
 
-.dc-chart p{
+.dc-chart {
     text-align: center;
+    padding-left: 30px;
+    
 }
 
 /*---------------------------------------locations*/
@@ -148,7 +158,9 @@ div#map {min-height: 1074px;}
 .pubs img {
     width: 200px;
     height: 200px;
+    
 }
+
 
 .venue {
     text-align: center;
